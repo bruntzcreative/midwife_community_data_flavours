@@ -1,0 +1,23 @@
+flutterfire config \
+  --project=midwife-data-community-dev \
+  --out=lib/midwife-data-community-dev.dart \
+  --ios-bundle-id=com.bruntzcreative.midwiferyAntenatalData.dev \
+  --ios-out=ios/flavors/development/GoogleService-Info.plist \
+  --android-package-name=com.example.midwife_data_community.dev \
+  --android-out=android/app/src/development/google-services.json
+
+flutterfire config \
+  --project=midwife-data-community-stg \
+  --out=lib/midwife-data-community-stg.dart \
+  --ios-bundle-id=com.bruntzcreative.midwiferyAntenatalData.stg \
+  --ios-out=ios/flavors/staging/GoogleService-Info.plist \
+  --android-package-name=com.example.midwife_data_community.stg \
+  --android-out=android/app/src/staging/google-services.json
+
+flutterfire config \
+  --project=midwife-data-community-prod \
+  --out=lib/midwife-data-community-prod.dart \
+  --ios-bundle-id=com.bruntzcreative.midwiferyAntenatalData \
+  --ios-out=ios/flavors/production/GoogleService-Info.plist \
+  --android-package-name=com.example.midwife_data_community \
+  --android-out=android/app/src/production/google-services.json

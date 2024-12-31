@@ -1,0 +1,16 @@
+flutter_launcher_icons:
+  ios: true
+  android: true
+  image_path_android: "assets/launch_icon/ios_staging.png"
+  image_path_ios: "assets/launch_icon/ios_staging.png"
+  adaptive_icon_background: "assets/launch_icon/adaptive_icon_background.png"
+  adaptive_icon_foreground: "assets/launch_icon/adaptive_icon_foreground_staging.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/launch_icon/ios_staging.png"
+    background_color: "#631d92"
+    theme_color: "#aa00ff"
+  macos:
+    generate: true
+    image_path: "assets/launch_icon/ios_staging.png"

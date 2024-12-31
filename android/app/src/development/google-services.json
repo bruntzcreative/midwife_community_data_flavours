@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571123530569",
+    "project_id": "midwife-data-community-dev",
+    "storage_bucket": "midwife-data-community-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571123530569:android:d75a45110d9627ac67f898",
+        "android_client_info": {
+          "package_name": "com.bruntzcreative.midwifery_antenatal_data.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjyGbAhzWu3ulSXcjA_lbVckmAp7b2klQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
